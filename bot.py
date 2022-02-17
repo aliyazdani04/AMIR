@@ -253,12 +253,6 @@ while True:
 							try:
 								bot.sendMessage(target, "ســلامـتیت😍♥", message_id=msg.get("message_id"))
 							except:
-								print("err CheKhabar")
-								
-						elif msg.get("text").startswith("لینک") or msg.get("text").startswith("link"):
-							try:
-								bot.sendMessage(target, "https://rubika.ir/joing/CAFDBBDH0YRBYHPEPOYXQZAYVXJSJCHD", message_id=msg.get("message_id"))
-							except:
 								print("err CheKhabar")		
 								
 						elif msg.get("text").startswith("ربات") or msg.get("text").startswith("بات"):
@@ -278,12 +272,18 @@ while True:
 								bot.sendMessage(target, "😑😐", message_id=msg.get("message_id"))
 							except:
 								print("err poker answer")
-             
-             elif msg.get("text") == "حنا":
-						   try:
-								 bot.sendMessage(target, "چیکارش داری؟🤨", message_id=msg.get("message_id"))
-							 except:
-								 print("err hana answer") 
+								
+						elif msg.get("text") == "حنا":
+							try:
+								bot.sendMessage(target, "چیکارش داری؟🤨😒", message_id=msg.get("message_id"))
+							except:
+								print("err hana answer")
+								
+						elif msg.get("text") == "امیر":
+							try:
+								bot.sendMessage(target, "بگو من بچشم👶🏼", message_id=msg.get("message_id"))
+							except:
+								print("err amir answer")		
 								
 						elif msg.get("text") == "سنجاق" and msg.get("author_object_guid") in admins :
 							try:
