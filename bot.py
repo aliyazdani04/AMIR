@@ -261,6 +261,12 @@ while True:
 							except:
 								print("err bot answer")
 								
+						elif msg.get("text").startswith("محمد") or msg.get("text").startswith("ممد"):
+							try:
+								bot.sendMessage(target, "الان میادش😁", message_id=msg.get("message_id"))
+							except:
+								print("err mammd answer")		
+								
 						elif msg.get("text").startswith("😂") or msg.get("text").startswith("🤣"):
 							try:
 								bot.sendMessage(target, "جــون تـو فــقط بخـند😍", message_id=msg.get("message_id"))
@@ -281,7 +287,7 @@ while True:
 								
 						elif msg.get("text") == "امیر":
 							try:
-								bot.sendMessage(target, "بگو من بچشم👶🏼", message_id=msg.get("message_id"))
+								bot.sendMessage(target, "یه دیقه پیش اینجا بود😐", message_id=msg.get("message_id"))
 							except:
 								print("err amir answer")		
 								
